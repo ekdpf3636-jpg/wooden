@@ -22,7 +22,7 @@
   };
 
 
-  const SellerCustomerListPage = () => {
+  const ItemListPage = () => {
     const navigate = useNavigate();   // navigate 상수 생성
 
     const {   // < 이 상수는 useCRUD.jsx 파일 내에 있는 useState, const로 선언된 상수, 이벤트 핸들러를 불러올수 있게 함.
@@ -231,4 +231,4 @@
     );
   };
 
-  export default SellerCustomerListPage;
+  export default ItemListPage;
