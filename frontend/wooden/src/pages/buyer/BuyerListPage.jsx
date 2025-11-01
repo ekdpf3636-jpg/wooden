@@ -32,7 +32,7 @@ const api = {
   delete: (id) => deleteBuyerCustomer(id),
 };
 
-const SellerCustomerListPage = () => {
+const BuyerListPage = () => {
   const navigate = useNavigate();
 
   const {
@@ -233,4 +233,4 @@ const SellerCustomerListPage = () => {
   );
 };
 
-export default SellerCustomerListPage;
+export default BuyerListPage;
